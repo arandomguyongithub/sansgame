@@ -1,4 +1,17 @@
-curl https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsn2813xFRpuNDlCpexe4gBD81JElR7O5K6vYtHx9jV-KLxoXsLuAfg7wgVEjQIFmi0hI&usqp=CAU
+#!/bin/bash
+
+# URL of the image to download
+IMAGE_URL="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsn2813xFRpuNDlCpexe4gBD81JElR7O5K6vYtHx9jV-KLxoXsLuAfg7wgVEjQIFmi0hI&usqp=CAU"
+
+# Download the image using curl
+curl -o sans1_temp.png "$IMAGE_URL"
+
+# Rename the downloaded image to "sans1.png"
+mv sans1_temp.png sans1.png
+
+# Optional: Display success message
+echo "Image downloaded and renamed to sans1.png"
+
 pip3 install pillow
 pip3 install pygame
 cd ~/Documents
