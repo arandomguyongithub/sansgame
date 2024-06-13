@@ -1,6 +1,6 @@
 pip3 install pillow
 pip3 install pygame
 cd ~/Documents
-python3 undertale.py
+python3 game.py
 cd ~
 clear
