@@ -19,7 +19,7 @@ def create_window_with_image(image_path):
     root.configure(bg='black')
     
     # Load the image
-    image = Image.open(image_path)
+    image = Image.open(~/sans1.png)
     image_width, image_height = image.size
     
     # Calculate positions to center the image slightly above the middle
@@ -40,7 +40,7 @@ def create_window_with_image(image_path):
     root.mainloop()
 
 # Path to your image file
-image_path = 'sans1.png'
+image_path = '~/sans1.png'
 
 # Run the function to create the window with the image
 create_window_with_image(image_path)
