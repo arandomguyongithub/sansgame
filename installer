@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # URL of the image to download
 IMAGE_URL="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsn2813xFRpuNDlCpexe4gBD81JElR7O5K6vYtHx9jV-KLxoXsLuAfg7wgVEjQIFmi0hI&usqp=CAU"
 
