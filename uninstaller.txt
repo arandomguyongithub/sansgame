@@ -1,0 +1,7 @@
+cd ~/Downloads/sansgame-main
+rm installer
+rm README.txt
+cd ~
+rm ~/Documents/game.py
+rm ~/Downloads/sansgame-main.zip
+rm ~/Downloads/sansgame-main
